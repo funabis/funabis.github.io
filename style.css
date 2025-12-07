@@ -1,8 +1,13 @@
 
+@font-face {
+    font-family: 'tnr';
+    src: url('/fonts/TimesNewRoman.woff');
+}
+
 body {
     background-color: #052d3a;
     color: rgba(255,255,255);
-    font-family: "Times New Roman";
+    font-family: "tnr";
     display: flex;
     margin: 0;
     padding: 0;
