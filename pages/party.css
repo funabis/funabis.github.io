@@ -1,0 +1,61 @@
+body {
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/images/background.png")
+}
+.title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.fire-line {
+    height: 30px;
+    width: 100%;
+    background: url("/images/flamingline.gif") 0 100% repeat-x, url("/images/flamingline.gif") 75px 100% repeat-x;
+}
+
+.title-text {
+    font-size: 4em;
+    margin: 0.5em;
+    text-align: center;
+    font-style: normal;
+    text-decoration: underline;
+    color: yellow;
+    font-weight: bold;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.paragraph {
+    padding: 4em;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+
+.hint {
+    font-size: 0.8em;
+}
+
+.motto {
+    font-size: 1.6em;
+    font-style: italic;
+    color: yellow;
+    padding: 1em;
+}
+
+ul {
+    text-align: left;
+    font-size: 0.8em;
+}
+
+li {
+    padding: 0.5em;
+}
