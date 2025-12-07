@@ -32,7 +32,7 @@ body {
 .paragraph {
     padding: 4em;
     display: flex;
-    width: 50%;
+    width: 70%;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -58,4 +58,8 @@ ul {
 
 li {
     padding: 0.5em;
+}
+img {
+    max-width: 500px;
+    width: 100%;
 }
